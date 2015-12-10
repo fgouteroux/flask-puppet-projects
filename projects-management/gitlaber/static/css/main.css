@@ -1,0 +1,84 @@
+#loading-bk {
+	display: none;
+	opacity: 0.8;
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	left: 0%;
+	top: 0%;
+}
+
+#loading {
+	display: none;
+	border-radius: 100px;
+	background-color: #fff;
+	background-image: url(../images/loader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+	margin: -25px 0 0 -25px;
+}
+
+.navbar-collapse.collapse {
+	background-color: #224466;
+}
+
+.navbar-fixed-bottom{
+	background-color: #224466;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+.container-login {
+	padding-top: 5%;
+}
+
+.login-block{
+	padding: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar-brand{
+	color: #fff;
+
+}
+
+.navbar-brand:hover{
+	color: #fff;
+}
+
+.nav > li > a{
+	color: #fff;
+	line-height: 35px;
+}
+
+.nav > li > a:hover{
+	background-color: transparent;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-container{
+	text-align: center;
+}
+
+.footer-container > a:hover{
+	color: #337ab7;
+}
+
+.projects {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}

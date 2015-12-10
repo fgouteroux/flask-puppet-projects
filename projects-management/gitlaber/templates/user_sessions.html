@@ -1,0 +1,23 @@
+{% include "items/header.html" %}
+
+<nav class="navbar navbar-header navbar-fixed-top">
+<a class="navbar-brand" href="/">Puppet Projects Management</a>
+    <div class="collapse navbar-collapse"></div>
+</nav>
+
+<div class="container">
+<div class="container-login">
+    <div class="login-block">
+        <h2>Login using GitLab account</h2>
+        <p class="light">
+        Make sure you have account on GitLab server
+        <a data-no-turbolink="data-no-turbolink" href="{{ gitlab_url }}">{{ gitlab_url }}</a>
+        </p>
+        <hr>
+        <a class="btn btn-login btn-success" data-no-turbolink="data-no-turbolink" href="/login">Login with GitLab</a>
+    </div>
+</div>
+</div>
+
+{% include "items/footer.html" %}
+  

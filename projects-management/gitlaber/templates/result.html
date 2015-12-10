@@ -1,0 +1,26 @@
+<div id="result">
+{% if manage_project %}
+    {% for item in manage_project %}
+        {% for k,v in item.iteritems() %}
+            {% if k == "Error" %}
+                <div class="alert alert-danger" role="alert"><b>{{ k }}:</b> {{ v }}</div>
+            {% else %}
+                <div class="alert alert-success" role="alert"><b>{{ k }}:</b> {{ v }}</div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+{% if manage_user_env %}
+    {% for item in manage_user_env %}
+        {% for k,v in item.iteritems() %}
+            {% if k == "Error" %}
+                <div class="alert alert-danger" role="alert"><b>{{ k }}:</b> {{ v }}</div>
+            {% else %}
+                <div class="alert alert-success" role="alert"><b>{{ k }}:</b> {{ v }}</div>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+</div>
+  
