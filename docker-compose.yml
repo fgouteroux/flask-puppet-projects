@@ -1,0 +1,10 @@
+flask-puppet-projects:
+    image: fgouteroux/flask-puppet-projects
+    command: python /code/puppet-projects/main.py
+    ports:
+        - "8080:5000"
+    environment:
+        - SECRET_KEY=mysecretkey
+        - GITLAB_URL=http://my-gitlab
+        - GITLAB_APP_ID=my-app-id
+        - GITLAB_APP_SECRET=my-app-secret

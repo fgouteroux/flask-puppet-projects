@@ -18,8 +18,8 @@
 - Run gitlab/docker-compose.yml from [source](https://github.com/sameersbn/docker-gitlab)
 - Create an application in gitlab with url callback http://127.0.0.1:5000/user_sessions/authorized
 - Create a group and a project in gitlab
-- Replace vars in config.py
-- Run flask-app
+- Replace vars in config.py or docker-compose.yml
+- Run flask-app or docker-compose up
 
 ## Contributors:
 - Ahmet Demir | [e-mail](mailto:ahmet2mir+github@gmail.com) | [Twitter](https://twitter.com/ahmet2mir) | [GitHub](https://github.com/ahmet2mir)
