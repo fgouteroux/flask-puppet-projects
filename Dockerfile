@@ -4,4 +4,4 @@ RUN mkdir /code
 WORKDIR /code
 ADD code /code/
 
-RUN pip install -r /code/requirements.txt
+RUN pip install -r /code/puppet-projects/requirements.txt
