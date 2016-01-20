@@ -2,4 +2,4 @@ Flask-Assets
 Flask
 pyScss
 cssmin
-Flask-HTTPAuth
+Flask-OAuthlib
